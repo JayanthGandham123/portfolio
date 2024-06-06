@@ -1,0 +1,88 @@
+body {
+  background-color: #bcb8b1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  background-color: #463f3a;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.sidebar a {
+  position: relative;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  padding-top: 30px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.sidebar a:hover {
+  color: #8a817c;
+}
+
+section {
+  margin-left: 400px;
+  padding: 250px;
+  margin-left: 150px;
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-color: black;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+footer {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.link {
+  margin-left: 20px;
+}
+
+.figures:hover {
+  color: white;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+#Education,
+#about {
+  padding-top: 150px;
+}
+
+/* Adjustments for Skills and Projects sections */
+#skills,
+#projects {
+  padding-top: 80px;
+}
+
+.project, .skills {
+  padding-top: 20px;
+}
